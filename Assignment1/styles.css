@@ -18,7 +18,6 @@ main {
     padding-top: 60px; 
 }
 
-/* Header styling */
 header {
     background-color: #ffeb3b;
     padding: 20px;
@@ -26,7 +25,6 @@ header {
     margin-bottom: 30px;
 }
 
-/* Navigation menu styling */
 nav ul {
     list-style: none;
     display: flex;
@@ -49,13 +47,11 @@ nav ul li a {
     transition: background-color 0.3s ease, color 0.3s ease;
 }
 
-/* Hover effect for the navigation buttons */
 nav ul li a:hover {
     background-color: #ff5722;
     color: white;
 }
 
-/* Section styles */
 section {
     margin: 40px 0; 
 }
@@ -69,10 +65,9 @@ section h2 {
 section p {
     font-size: 1.1em;
     margin: 10px 0;
-    line-height: 1.6; /* Improve readability */
+    line-height: 1.6; 
 }
 
-/* Basic table styling */
 table {
     width: 100%;
     border-collapse: collapse;
@@ -97,17 +92,15 @@ td {
     background-color: #f1f1f1;
 }
 
-/* Styling for the photo gallery */
 #gallery img {
     width: 200px;
     height: 200px;
     object-fit: cover;
     margin: 10px;
     border-radius: 10px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Adding a subtle shadow for effect */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
 
-/* Plain text for parent resources */
 #resources ul {
     list-style-type: none;
     padding: 0;
@@ -115,20 +108,18 @@ td {
 
 #resources ul li {
     margin: 10px 0;
-    font-size: 1.2em; /* Increase font size for readability */
+    font-size: 1.2em; 
     color: #333;
 }
 
-/* Footer styling */
 footer {
     background-color: #ffeb3b;
     padding: 10px;
     margin-top: 30px;
     border-radius: 10px;
-    font-size: 1em; /* Standardize the font size for the footer */
+    font-size: 1em; 
 }
 
-/* Responsive layout for mobile */
 @media (max-width: 768px) {
     nav ul {
         flex-direction: column;
@@ -142,6 +133,6 @@ footer {
 
     table, th, td {
         font-size: 0.9em;
-        padding: 8px; /* Reduce padding for smaller screens */
+        padding: 8px; 
     }
 }
