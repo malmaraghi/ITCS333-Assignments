@@ -93,12 +93,12 @@ td {
 }
 
 #gallery img {
-    width: 200px;
-    height: 200px;
+    width: 300px;
+    height: 300px;
     object-fit: cover;
     margin: 10px;
     border-radius: 10px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 4px 8px rgba(141, 38, 38, 0.1);
 }
 
 #resources ul {
@@ -120,19 +120,3 @@ footer {
     font-size: 1em; 
 }
 
-@media (max-width: 800px) {
-    nav ul {
-        flex-direction: column;
-        gap: 10px;
-    }
-
-    #gallery img {
-        width: 100%;
-        height: auto;
-    }
-
-    table, th, td {
-        font-size: 0.9em;
-        padding: 8px; 
-    }
-}
