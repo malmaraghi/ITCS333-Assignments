@@ -65,7 +65,7 @@ section h2 {
 section p {
     font-size: 1.1em;
     margin: 10px 0;
-    line-height: 1.6; 
+    line-height: 2; 
 }
 
 table {
@@ -120,7 +120,7 @@ footer {
     font-size: 1em; 
 }
 
-@media (max-width: 768px) {
+@media (max-width: 800px) {
     nav ul {
         flex-direction: column;
         gap: 10px;
