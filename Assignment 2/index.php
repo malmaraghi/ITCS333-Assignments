@@ -5,6 +5,14 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>University of Bahrain Student Enrollment Data</title>
     <link rel="stylesheet" href="https://unpkg.com/@picocss/pico@1.5.7/css/pico.min.css">
+    <style>
+        table th, table td {
+            white-space: nowrap;
+        }
+        table th {
+            font-weight: bold;
+        }
+    </style>
 </head>
 <body>
     <main class="container">
@@ -38,7 +46,7 @@
                               </tr>";
                     }
                 } else {
-                    echo "<tr><td colspan='6'>No data available</td></tr>";
+                    echo "<tr><td>No data available</td></tr>";
                 }
                 ?>
             </tbody>
