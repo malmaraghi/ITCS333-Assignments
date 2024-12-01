@@ -46,7 +46,7 @@
                               </tr>";
                     }
                 } else {
-                    echo "<tr><td>No data available</td></tr>";
+                    echo "<tr><td colspan='6'>No data available</td></tr>";
                 }
                 ?>
             </tbody>
